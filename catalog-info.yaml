@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "racismsucks"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-35"
+    "humanitec.com/appId": "racismsucks"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
